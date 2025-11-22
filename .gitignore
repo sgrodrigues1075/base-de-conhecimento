@@ -1,0 +1,59 @@
+# ===========================
+# SISTEMA OPERACIONAL (Windows)
+# ===========================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# ===========================
+# ARQUIVOS TEMPORÁRIOS DO VSCODE
+# ===========================
+.vscode/
+.history/
+*.code-workspace
+
+# ===========================
+# NODE (CASO USE NO FUTURO)
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# ===========================
+# SISTEMA DE BUILD / CACHE
+# ===========================
+dist/
+build/
+.cache/
+.temp/
+
+# ===========================
+# ARQUIVOS COMUNS PARA IGNORAR
+# ===========================
+*.log
+*.tmp
+*.bak
+*.old
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.DS_Store
+
+# ===========================
+# ARQUIVOS DO PROJETO ALURA QUE NÃO PRECISA
+# ===========================
+imersao-dev-aula-1/
+node-example-base-content-main/
+imersao-dev-aula-1.zip
+node-example-base-content-main.zip
+
+# ===========================
+# AMBIENTES (CASO USE NO FUTURO)
+# ===========================
+.env
+.env.*
