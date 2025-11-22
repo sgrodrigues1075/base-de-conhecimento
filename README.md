@@ -103,7 +103,15 @@ Se usar VSCode, você pode rodar com Live Server.<br>
 <br>
 📷 Prévia do Projeto<br>
 
+
+<br>
+Tema Escuro<br>
+
+
 ![alt text](image.png)
+
+<br>
+Tema Claro<br>
 
 ![alt text](image-1.png)
 
