@@ -118,3 +118,6 @@ campoBusca.addEventListener("keyup", function(event) {
     iniciarBusca(); // chama a busca
   }
 });
+
+// Atualiza automaticamente o ano no footer
+document.getElementById("anoAtual").textContent = new Date().getFullYear();

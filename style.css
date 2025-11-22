@@ -415,14 +415,19 @@ body.light-theme .card:hover {
   }
 }
 
-/* ==============================
-   FOOTER
-   ============================== */
+
+/* ============================== FOOTER ============================== */
 .footer {
   border-top: 1px solid rgba(148, 163, 184, 0.2);
-  background: rgba(15, 23, 42, 0.98);
-  padding: 0.9rem 1.25rem;
+  background: rgba(15, 23, 42, 0.97);
+  padding: 0.6rem 1.25rem;         /* menos alto = mais discreto */
   color: var(--tertiary-color);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;                     /* espaço pequeno entre links e assinatura */
+  font-size: 0.8rem;               /* base menor para tudo */
 }
 
 .footer-links {
@@ -430,24 +435,83 @@ body.light-theme .card:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 1.5rem;
 }
 
 .footer-links a {
   color: var(--tertiary-color);
   text-decoration: none;
-  font-size: 0.9rem;
-  transition: color var(--transition-fast), transform var(--transition-fast);
+  font-size: 0.85rem;
+  transition: color var(--transition-fast), transform var(--transition-fast), opacity var(--transition-fast);
+  opacity: 0.9;
 }
 
 .footer-links a:hover {
   color: var(--primary-color);
   transform: translateY(-1px);
+  opacity: 1;
 }
 
-/* ==============================
-   RESPONSIVO
-   ============================== */
+/* Texto da assinatura */
+.assinatura {
+  text-align: center;
+  font-size: 0.7rem;          /* menor ainda */
+  color: var(--tertiary-color);
+  opacity: 0.9;               /* um pouquinho mais suave */
+  margin-top: 0.2rem;         /* aproxima dos links, fica mais compacto */
+
+   /* Animação discreta */
+  animation: assinaturaPasseando 83s ease-in-out infinite;
+}
+
+/* Animação suave para a assinatura passear pelo rodapé */
+@keyframes assinaturaPasseando {
+  0%   { transform: translateX(0); }         /* centro */
+  33%  { transform: translateX(55px); }      /* pequeno desvio para direita */
+  66%  { transform: translateX(-55px); }     /* pequeno desvio para esquerda */
+  100% { transform: translateX(0); }         /* volta ao centro */
+}
+
+
+.assinatura strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* ======================= FOOTER NO TEMA CLARO  ======================= */
+body.light-theme .footer {
+  background: rgba(248, 250, 252, 0.98);  /* quase branco */
+  border-top: 1px solid #d4dae3;         /* contraste maior */
+  color: #475569;                         /* cinza mais escuro → melhor leitura */
+  box-shadow: 0 -4px 14px rgba(0, 0, 0, 0.06);
+}
+
+body.light-theme .footer-links a {
+  color: #475569;                         /* mais contraste */
+  font-weight: 500;                       /* leve negrito para leitura */
+}
+
+body.light-theme .footer-links a:hover {
+  color: var(--primary-color);
+}
+
+/* Assinatura mais legível no tema claro */
+body.light-theme .assinatura {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;       /* mais cheia, sem ficar pesada */
+  font-size: 0.72rem;     /* pequena, porém mais visível */
+  color: #374151;         /* cinza escuro suave */
+  letter-spacing: 0.1px;  /* melhora definição */
+}
+
+
+
+body.light-theme .assinatura strong {
+  color: var(--primary-color);            /* seu nome com destaque */
+}
+
+
+/* ==============================  RESPONSIVO   ============================== */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -502,9 +566,7 @@ body.light-theme .card:hover {
   }
 }
 
-/* ============================================
-   SEÇÃO DE INTRODUÇÃO
-   ============================================ */
+
 /* ============================================ SEÇÃO DE INTRODUÇÃO ============================================ */
 .intro {
   margin: 2.2rem auto 1.2rem;
