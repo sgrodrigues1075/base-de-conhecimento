@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Base de Conhecimento</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Base de Conhecimento</h1>
+      <div>
+        <input type="text" placeholder="Digite uma linguagem de programação:" />
+        <button id="botao-busca" onclick="iniciarBusca()">Buscar</button>
+
+        <!-- NOVO: Caixa de seleção de tema -->
+        <!-- id="select-tema" vai permitir o JavaScript encontrar essa caixa. -->
+        <!-- <value="escuro" e value="claro" são os valores que vamos ler no JS.  -->
+        <!-- O selected em “Escuro” garante que o tema inicial continua o escuro. -->
+        <div class="theme-box">
+          <label for="select-tema">Tema:</label>
+          <select id="select-tema">
+            <option value="escuro" selected>Escuro</option>
+            <option value="claro">Claro</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <section class="intro">
+      <h2>Base de Conhecimento de Linguagens de Programação</h2>
+      <p>
+        Explore uma coleção completa com linguagens modernas, históricas,
+        funcionais, para sistemas, mobile e até para microcontroladores como
+        Arduino e ESP32. Cada item inclui uma breve descrição, nível de
+        dificuldade, ano de criação e links de documentação.
+      </p>
+      <p>
+        Utilize a busca para filtrar linguagens por nome, termos técnicos ou
+        tags como <strong>backend</strong>, <strong>mobile</strong>,
+        <strong>IA</strong>, <strong>funcional</strong>,
+        <strong>embarcados</strong> e outras áreas.
+      </p>
+    </section>
+
+    <main>
+      <section class="card-container">
+        <!-- Cards serão adicionados dinamicamente pelo js -->
+      </section>
+      <!-- <section></section> -->
+    </main>
+
+    <footer class="footer">
+      <ul class="footer-links">
+        <li><a href="https://github.com/guilhermeonrails">Github</a></li>
+        <li><a href="https://www.alura.com.br/">Alura</a></li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

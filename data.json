@@ -1,0 +1,269 @@
+[
+    {
+        "nome": "JavaScript",
+        "descricao": "JavaScript é uma linguagem essencial para o desenvolvimento moderno da web. Usada tanto no frontend quanto no backend, é versátil, multiparadigma e amplamente suportada pelos navegadores. Nível de dificuldade: fácil para iniciantes.",
+        "data_criacao": "1995",
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+        "tags": ["linguagem de programação", "frontend", "backend", "web", "multiparadigma"]
+    },
+    {
+        "nome": "Python",
+        "descricao": "Python é conhecida pela legibilidade e simplicidade, sendo excelente para iniciantes. É amplamente usada em ciência de dados, IA, automação e desenvolvimento web. Nível de dificuldade: muito fácil para iniciantes.",
+        "data_criacao": "1991",
+        "link": "https://docs.python.org/pt-br/3/tutorial/",
+        "tags": ["linguagem de programação", "alta produtividade", "ciência de dados", "automação", "IA"]
+    },
+    {
+        "nome": "Java",
+        "descricao": "Java é uma linguagem orientada a objetos robusta e multiplataforma, usada em sistemas corporativos, bancos e Android. Seu lema 'write once, run anywhere' marcou a indústria. Nível de dificuldade: médio.",
+        "data_criacao": "1995",
+        "link": "https://pt.wikipedia.org/wiki/Java_(linguagem_de_programação)",
+        "tags": ["linguagem de programação", "orientado a objetos", "back-end", "corporativo", "android"]
+    },
+    {
+        "nome": "C",
+        "descricao": "C é uma linguagem fundamental da computação moderna. Rápida e eficiente, é usada em sistemas operacionais, firmware e drivers. Exige atenção ao gerenciamento de memória. Nível de dificuldade: médio-alto.",
+        "data_criacao": "1972",
+        "link": "https://pt.wikipedia.org/wiki/C_(linguagem_de_programação)",
+        "tags": ["baixo nível", "sistemas", "desempenho", "linguagem de programação", "embarcados"]
+    },
+    {
+        "nome": "C++",
+        "descricao": "C++ expande C com orientação a objetos, generics e recursos avançados. Usado em engines de jogos, sistemas de alta performance e aplicações críticas. Nível de dificuldade: alto.",
+        "data_criacao": "1985",
+        "link": "https://pt.wikipedia.org/wiki/C%2B%2B",
+        "tags": ["linguagem de programação", "alto desempenho", "jogos", "sistemas", "baixo nível"]
+    },
+    {
+        "nome": "C#",
+        "descricao": "C# é uma linguagem moderna da Microsoft voltada para produtividade, segurança e robustez. Muito usada com .NET, Windows e Unity. Nível de dificuldade: médio.",
+        "data_criacao": "2000",
+        "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/",
+        "tags": ["linguagem de programação", ".net", "windows", "jogos", "back-end"]
+    },
+    {
+        "nome": "Go",
+        "descricao": "Go (Golang) é simples, rápida e excelente para concorrência, criada pelo Google para sistemas distribuídos e microsserviços. Nível de dificuldade: médio.",
+        "data_criacao": "2009",
+        "link": "https://go.dev/doc/",
+        "tags": ["linguagem de programação", "concorrência", "cloud", "alto desempenho", "microserviços"]
+    },
+    {
+        "nome": "Rust",
+        "descricao": "Rust oferece segurança de memória sem garbage collector, sendo ideal para sistemas críticos. É poderosa, mas exige mais estudo inicial. Nível de dificuldade: alto.",
+        "data_criacao": "2010",
+        "link": "https://www.rust-lang.org/pt-BR/",
+        "tags": ["linguagem de programação", "segurança", "performance", "sistemas", "moderna"]
+    },
+    {
+        "nome": "Kotlin",
+        "descricao": "Kotlin é moderna, segura e oficial para Android. Traz sintaxe enxuta e recursos avançados como null safety. Nível de dificuldade: médio.",
+        "data_criacao": "2011",
+        "link": "https://kotlinlang.org/docs/home.html",
+        "tags": ["linguagem de programação", "android", "moderna", "backend", "multiplataforma"]
+    },
+    {
+        "nome": "Swift",
+        "descricao": "Swift é a principal linguagem para desenvolvimento iOS e macOS. Moderna, rápida e segura, substituiu Objective-C em grande parte do ecossistema Apple. Nível de dificuldade: médio.",
+        "data_criacao": "2014",
+        "link": "https://www.swift.org/documentation/",
+        "tags": ["linguagem de programação", "ios", "macos", "moderna", "mobile"]
+    },
+    {
+        "nome": "PHP",
+        "descricao": "PHP é uma das linguagens mais usadas no backend da web, especialmente em sites, CMS e frameworks como Laravel. Fácil de aprender e com grande comunidade. Nível de dificuldade: fácil.",
+        "data_criacao": "1995",
+        "link": "https://www.php.net/manual/pt_BR/",
+        "tags": ["linguagem de programação", "backend", "web", "cms", "script"]
+    },
+    {
+        "nome": "Ruby",
+        "descricao": "Ruby possui sintaxe elegante e foco em produtividade. Seu framework Ruby on Rails revolucionou o desenvolvimento web. Nível de dificuldade: fácil-médio.",
+        "data_criacao": "1995",
+        "link": "https://www.ruby-lang.org/pt/",
+        "tags": ["linguagem de programação", "dinâmica", "web", "rails", "backend"]
+    },
+    {
+        "nome": "TypeScript",
+        "descricao": "TypeScript adiciona tipagem estática ao JavaScript, tornando grandes projetos mais seguros e escaláveis. É amplamente usado com Angular, React e Node. Nível de dificuldade: médio.",
+        "data_criacao": "2012",
+        "link": "https://www.typescriptlang.org/pt/docs",
+        "tags": ["linguagem de programação", "javascript", "frontend", "backend", "tipagem estática"]
+    },
+    {
+        "nome": "SQL",
+        "descricao": "SQL é a linguagem padrão para manipulação de bancos de dados relacionais. Fácil para iniciar, mas profunda para dominar totalmente. Nível de dificuldade: fácil-médio.",
+        "data_criacao": "1974",
+        "link": "https://pt.wikipedia.org/wiki/SQL",
+        "tags": ["banco de dados", "consultas", "dados", "relacional", "declarativa"]
+    },
+    {
+        "nome": "Scala",
+        "descricao": "Scala combina princípios funcionais com orientação a objetos, rodando na JVM. Muito usada em big data, especialmente com o framework Apache Spark. Nível de dificuldade: alto.",
+        "data_criacao": "2004",
+        "link": "https://scala-lang.org/",
+        "tags": ["funcional", "orientado a objetos", "big data", "jvm", "backend"]
+    },
+    {
+        "nome": "Elixir",
+        "descricao": "Elixir roda sobre a robusta BEAM VM (Erlang) e é famosa por lidar com milhões de conexões simultâneas com alta tolerância a falhas. Nível de dificuldade: médio-alto.",
+        "data_criacao": "2011",
+        "link": "https://elixir-lang.org/",
+        "tags": ["funcional", "concorrência", "alta disponibilidade", "backend", "erlang vm"]
+    },
+    {
+        "nome": "Dart",
+        "descricao": "Dart é muito usado com Flutter para desenvolvimento multiplataforma. Fácil para começar e muito poderoso quando combinado com widgets do Flutter. Nível de dificuldade: fácil-médio.",
+        "data_criacao": "2011",
+        "link": "https://dart.dev/guides",
+        "tags": ["mobile", "flutter", "multiplataforma", "frontend", "backend"]
+    },
+    {
+        "nome": "R",
+        "descricao": "R é uma linguagem projetada para análise estatística, machine learning e visualização. Muito usada em universidades e pesquisa. Nível de dificuldade: médio.",
+        "data_criacao": "1993",
+        "link": "https://cran.r-project.org/manuals.html",
+        "tags": ["estatística", "data science", "visualização", "machine learning", "linguagem de programação"]
+    },
+    {
+        "nome": "Assembly",
+        "descricao": "Assembly é extremamente próximo ao hardware, permitindo controle total da máquina. Usado em firmware, drivers e sistemas embarcados. Nível de dificuldade: muito alto.",
+        "data_criacao": "1949",
+        "link": "https://pt.wikipedia.org/wiki/Linguagem_assembly",
+        "tags": ["baixo nível", "hardware", "embarcados", "otimização", "sistemas"]
+    },
+    {
+        "nome": "Perl",
+        "descricao": "Perl é poderosa para automação, análise de texto, administração de sistemas e scripts. Dominou a web antes do PHP. Nível de dificuldade: médio.",
+        "data_criacao": "1987",
+        "link": "https://www.perl.org/",
+        "tags": ["scripts", "automação", "texto", "web", "linguagem de programação"]
+    },
+    {
+        "nome": "BASIC",
+        "descricao": "BASIC foi criada para ser simples e acessível para iniciantes. Fez parte da história dos primeiros computadores pessoais. Nível de dificuldade: fácil.",
+        "data_criacao": "1964",
+        "link": "https://pt.wikipedia.org/wiki/BASIC",
+        "tags": ["linguagem de programação", "histórica", "educacional", "alto nível", "micros antigos"]
+    },
+    {
+        "nome": "COBOL",
+        "descricao": "COBOL é usada há décadas em bancos, governos e sistemas corporativos críticos. É simples na sintaxe, mas extensa e detalhada. Nível de dificuldade: médio.",
+        "data_criacao": "1959",
+        "link": "https://pt.wikipedia.org/wiki/COBOL",
+        "tags": ["linguagem de programação", "mainframe", "negócios", "legado", "bancos"]
+    },
+    {
+        "nome": "Fortran",
+        "descricao": "Fortran é muito usada em cálculos científicos, física, engenharia e simulações. Uma das linguagens mais rápidas e eficientes da história. Nível de dificuldade: médio.",
+        "data_criacao": "1957",
+        "link": "https://pt.wikipedia.org/wiki/Fortran",
+        "tags": ["linguagem de programação", "científica", "numérico", "alto desempenho", "histórica"]
+    },
+    {
+        "nome": "Pascal",
+        "descricao": "Pascal foi criada para ensino estruturado e boas práticas. Influenciou diretamente o Delphi e a formação de programadores durante anos. Nível de dificuldade: fácil-médio.",
+        "data_criacao": "1970",
+        "link": "https://pt.wikipedia.org/wiki/Pascal_(linguagem_de_programação)",
+        "tags": ["linguagem de programação", "estruturada", "educacional", "histórica", "delphi"]
+    },
+    {
+        "nome": "Lisp",
+        "descricao": "Lisp é baseada em listas e é uma das linguagens mais influentes da IA. Sua sintaxe é diferente das linguagens convencionais, mas extremamente poderosa. Nível de dificuldade: alto.",
+        "data_criacao": "1958",
+        "link": "https://pt.wikipedia.org/wiki/LISP",
+        "tags": ["linguagem de programação", "funcional", "IA", "histórica", "listas"]
+    },
+    {
+        "nome": "Ada",
+        "descricao": "Ada é usada em aviação, defesa e sistemas críticos. Extremamente segura e com tipagem rigorosa, foi projetada para não falhar. Nível de dificuldade: alto.",
+        "data_criacao": "1980",
+        "link": "https://pt.wikipedia.org/wiki/Ada_(linguagem_de_programação)",
+        "tags": ["linguagem de programação", "tempo real", "sistemas críticos", "forte tipagem", "defesa"]
+    },
+    {
+        "nome": "Prolog",
+        "descricao": "Prolog é declarativa e baseada em lógica, utilizada em IA e sistemas especialistas. Não funciona como linguagens convencionais, exigindo pensamento lógico. Nível de dificuldade: alto.",
+        "data_criacao": "1972",
+        "link": "https://pt.wikipedia.org/wiki/Prolog",
+        "tags": ["linguagem de programação", "lógica", "IA", "sistemas especialistas", "declarativa"]
+    },
+    {
+        "nome": "Smalltalk",
+        "descricao": "Smalltalk é totalmente orientada a objetos, influenciou diversas linguagens modernas e revolucionou interfaces gráficas. Nível de dificuldade: médio-alto.",
+        "data_criicao": "1972",
+        "link": "https://pt.wikipedia.org/wiki/Smalltalk",
+        "tags": ["linguagem de programação", "orientado a objetos", "histórica", "ide visual", "experimental"]
+    },
+    {
+        "nome": "Shell Script",
+        "descricao": "Shell Script é essencial em Linux e servidores, usado para automação, rotinas administrativas e execução de comandos. Nível de dificuldade: fácil-médio.",
+        "data_criacao": "1979",
+        "link": "https://pt.wikipedia.org/wiki/Bash",
+        "tags": ["scripts", "automação", "unix", "linux", "administração de sistemas"]
+    },
+    {
+        "nome": "Haskell",
+        "descricao": "Haskell é uma linguagem puramente funcional, muito usada em pesquisa, bancos e aplicações críticas por oferecer segurança extrema e forte sistema de tipos. Nível de dificuldade: alto.",
+        "data_criacao": "1990",
+        "link": "https://pt.wikipedia.org/wiki/Haskell",
+        "tags": ["funcional", "tipagem forte", "imutabilidade", "concorrência", "linguagem de programação"]
+    },
+    {
+        "nome": "Lua",
+        "descricao": "Lua é uma linguagem leve e rápida criada no Brasil. Muito usada em jogos, scripts embutidos e sistemas embarcados. Fácil de aprender e extremamente eficiente. Nível de dificuldade: fácil-médio.",
+        "data_criacao": "1993",
+        "link": "https://pt.wikipedia.org/wiki/Lua_(linguagem_de_programação)",
+        "tags": ["scripts", "jogos", "embarcados", "leve", "Brasil"]
+    },
+    {
+        "nome": "MATLAB",
+        "descricao": "MATLAB é uma linguagem voltada para matemática aplicada, engenharia e simulação. Muito usada em universidades e pesquisa científica. Nível de dificuldade: médio.",
+        "data_criacao": "1984",
+        "link": "https://pt.wikipedia.org/wiki/MATLAB",
+        "tags": ["matemática", "simulação", "engenharia", "científica", "alto desempenho"]
+    },
+    {
+        "nome": "F#",
+        "descricao": "F# é funcional e moderna, parte da plataforma .NET. Muito usada em finanças e aplicações robustas por seu modelo matematicamente seguro. Nível de dificuldade: alto.",
+        "data_criacao": "2005",
+        "link": "https://pt.wikipedia.org/wiki/F_Sharp",
+        "tags": [".net", "funcional", "tipagem forte", "backend", "moderna"]
+    },
+    {
+        "nome": "Objective-C",
+        "descricao": "Objective-C foi a linguagem principal para macOS e iOS antes da chegada de Swift. Mistura C com conceitos de Smalltalk. Ainda muito encontrada em sistemas legados da Apple. Nível de dificuldade: médio-alto.",
+        "data_criacao": "1984",
+        "link": "https://pt.wikipedia.org/wiki/Objective-C",
+        "tags": ["ios", "macos", "orientado a objetos", "apple", "legado"]
+    },
+    {
+    "nome": "Portugol (VisualG)",
+    "descricao": "Portugol é uma linguagem educacional amplamente utilizada no Brasil para o ensino de lógica de programação. Popularizada pelo VisualG, utiliza uma sintaxe próxima do Português para facilitar a compreensão de algoritmos por iniciantes. Nível de dificuldade: muito fácil para iniciantes.",
+    "data_criacao": "2005",
+    "link": "https://pt.wikipedia.org/wiki/Portugol",
+    "tags": ["educacional", "Brasil", "algoritmos", "iniciante", "pseudocódigo"]
+    },
+    {
+    "nome": "Arduino C/C++",
+    "descricao": "A linguagem do Arduino é baseada em C/C++, porém simplificada com bibliotecas internas e funções como setup() e loop(), permitindo controlar sensores, motores, LEDs e diversos dispositivos eletrônicos. É uma das plataformas mais populares do mundo para eletrônica e prototipagem rápida. Nível de dificuldade: médio.",
+    "data_criacao": "2005",
+    "link": "https://www.arduino.cc/reference/pt/",
+    "tags": ["arduino", "eletrônica", "embarcados", "c++", "microcontroladores"]
+    },
+    {
+    "nome": "ESP-IDF (C/C++)",
+    "descricao": "ESP-IDF é o framework oficial da Espressif para programar microcontroladores ESP32 e ESP8266 utilizando C e C++. Fornece APIs avançadas para Wi-Fi, Bluetooth, multitarefas com FreeRTOS e recursos de baixo consumo. É a opção mais poderosa para desenvolvimento profissional em ESP. Nível de dificuldade: alto.",
+    "data_criacao": "2016",
+    "link": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/",
+    "tags": ["esp32", "esp8266", "embarcados", "wifi", "c++"]
+    },
+    {
+    "nome": "MicroPython",
+    "descricao": "MicroPython é uma implementação enxuta do Python para microcontroladores, permitindo programar placas como ESP32, ESP8266 e PyBoard usando sintaxe Python. Muito fácil para quem já conhece Python e quer trabalhar com hardware. Nível de dificuldade: fácil.",
+    "data_criacao": "2014",
+    "link": "https://micropython.org/",
+    "tags": ["python", "embarcados", "esp32", "esp8266", "microcontroladores"]
+    }
+]
+
