@@ -6,10 +6,10 @@ Permite filtrar tecnologias, visualizar informações detalhadas e alternar entr
 <br>
 🚀 Tecnologias Utilizadas
 
-HTML5
-CSS3 (gradientes, animações, responsividade, dark/light theme)
-JavaScript (DOM, eventos, fetch, filtro inteligente)
-JSON (fonte de dados)
+HTML5<br>
+CSS3 (gradientes, animações, responsividade, dark/light theme)<br>
+JavaScript (DOM, eventos, fetch, filtro inteligente)<br>
+JSON (fonte de dados)<br>
 
 <br>
 🎯 Objetivo do Projeto
@@ -25,7 +25,9 @@ Temas claro/escuro
 
 <br>
 🧠 Funcionalidades
-🔍 Busca Inteligente
+<br>
+<br>
+🔍 Busca Inteligente<br>
 
 O usuário pode pesquisar por:
 nome da linguagem
@@ -33,16 +35,18 @@ conteúdo da descrição
 tags (ex: backend, mobile, IA, embarcados...)
 A busca funciona pressionando ENTER ou clicando em Buscar.
 
-🎨 Tema Escuro e Claro
+<br>
+🎨 Tema Escuro e Claro<br>
 
 O projeto contém um seletor no header:
 
-Tema Escuro (padrão)
-Tema Claro
+Tema Escuro (padrão)<br>
+Tema Claro<br>
 
 A interface inteira troca de cores através de CSS Variables, oferecendo transições suaves e visual profissional.
 
-🗂️ Cards Dinâmicos
+<br>
+🗂️ Cards Dinâmicos<br>
 
 Os cards são montados automaticamente via JavaScript, com:
 
@@ -52,25 +56,28 @@ Ano de criação
 Tags
 Link “Saiba mais”
 
+<br>
 🧩 Arquitetura limpa
+<br>
+Arquivos principais:<br>
+index.html — estrutura da página<br>
+style.css — estilos, temas, animações<br>
+script.js — busca, renderização dos cards, tema<br>
+data.json — base de dados com as linguagens<br>
 
-Arquivos principais:
-index.html — estrutura da página
-style.css — estilos, temas, animações
-script.js — busca, renderização dos cards, tema
-data.json — base de dados com as linguagens
-
-🖥️ Pré-requisitos
+<br>
+🖥️ Pré-requisitos<br>
 
 Nenhum.
 Basta abrir o arquivo index.html no navegador.
 
-Para edição, recomenda-se:
-VSCode
-Live Server
-Git + GitHub
+Para edição, recomenda-se:<br>
+VSCode<br>
+Live Server<br>
+Git + GitHub<br>
 
-▶️ Como Rodar o Projeto
+<br>
+▶️ Como Rodar o Projeto<br>
 
 Clone o repositório:
 git clone https://github.com/SEU-USUARIO/base-de-conhecimento.git
@@ -84,24 +91,25 @@ Abra no navegador:
 index.html
 
 
-Se usar VSCode, você pode rodar com Live Server.
+Se usar VSCode, você pode rodar com Live Server.<br>
 
-📁 Estrutura do Projeto
-📂 base-de-conhecimento
-├── index.html
-├── style.css
-├── script.js
-└── data.json
+📁 Estrutura do Projeto<br>
+📂 base-de-conhecimento<br>
+├── index.html<br>
+├── style.css<br>
+├── script.js<br>
+└── data.json<br>
 
-📷 Prévia do Projeto
+<br>
+📷 Prévia do Projeto<br>
 
 ![alt text](image.png)
 
 ![alt text](image-1.png)
 
-
+<br>
 
 👨‍💻 Autor
 
-Sérgio Rodrigues
+Sérgio Rodrigues<br>
 Projeto desenvolvido para estudos de HTML, CSS, JavaScript e estruturação de interfaces modernas.
